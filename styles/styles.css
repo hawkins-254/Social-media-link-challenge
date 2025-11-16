@@ -20,6 +20,7 @@ font
     line-height: 1.6;
     background-color: var(--Grey-900);
     font-style: 'inter', sans-serif;
+    scroll-behavior: smooth;
  }
 h1 {
     color: var(--White);
@@ -37,7 +38,7 @@ p{
     font-size: 12px;
     padding: 10px 0px;
 }
-a {
+.social-links a {
     text-decoration: none;
     color: var(--White);
     font-weight: 600;
@@ -49,7 +50,7 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: smaller;
 }
-a:active {
+.social-links a:hover {
     color: var(--Green);
 }  
 ul li {
@@ -73,3 +74,33 @@ ul li {
     .social-links ul:first-child {
         margin-top: 15px;
     }
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.card {
+    background-color: var(--Grey-800);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 300px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.attribution a {
+    color: var(--Green);
+    text-decoration: none;
+    display: inline;
+}
+
