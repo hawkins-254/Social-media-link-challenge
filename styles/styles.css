@@ -102,4 +102,6 @@ ul li {
     color: var(--Green);
     text-decoration: none;
 }
-
+.footer {
+    text-align: center;
+}
