@@ -91,7 +91,7 @@ ul li {
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
-    width: 300px;
+    width: 600px;
 }
 
 .container {
@@ -101,6 +101,5 @@ ul li {
 .attribution a {
     color: var(--Green);
     text-decoration: none;
-    display: inline;
 }
 
